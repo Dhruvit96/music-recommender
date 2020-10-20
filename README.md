@@ -16,8 +16,11 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 # forth step
 Create a model using a machine learning algorithm like DecisionTree or Neural-Network etc. The choice of algorithm depends on its performance and accuracy
+
 model = DecisionTreeClassifier()
+
 Training model with input and output training set
+
 model.fit(X_train, y_train)
 
 # After training the model, save the model as a .joblib file so we don't have to train model every time.
