@@ -23,7 +23,7 @@ Training model with input and output training set
 
 model.fit(X_train, y_train)
 
-# After training the model, save the model as a .joblib file so we don't have to train model every time.
+## After training the model, save the model as a .joblib file so we don't have to train model every time.
 
 # final step
 Test
